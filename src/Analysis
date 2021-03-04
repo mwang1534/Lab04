@@ -1,0 +1,7 @@
+The implementation has a runtime of n^2 because if we have n elements, we first compare it to another element and then
+we add it to the new double array. This means that each element has two operations performed on it which would be n^2.
+This makes our mergeklists Big-O of n^2.
+
+The implementation's space is Big-O of n because the result array that is output has the same number of elements as the
+input array. Technically, our implementation's space is 4n because of the incrementing variables, but we ignore the
+constants so it's just n.
